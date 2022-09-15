@@ -1,375 +1,124 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+html{
+    scroll-behavior: smooth;
 }
 
-.text_center{
-    text-align: center;
+
+header{
+    background-color: #101446;
+}
+.header-logo{}
+.header-logo img{
+    width: 95px;
+    padding: 5px;
+}
+.primary-menu{}
+.primary-menu ul {
+    text-align: right;
+    margin-bottom: 0;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a {
+    display: block;
+    color: white;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    text-decoration: none;
+    line-height: 50px;
+    margin-left: -5px;
+}
+.primary-menu ul li a:hover{
+    background-color: rgba(11, 158, 184, 0.212) ;
 }
 
-.text_left{
-    text-align: left;
-}
-.text_right{
-    text-align:right;
-}
-.left{
-    float: left;
+
+.banner{
+    background-image: url(./images/intro-bg.jpg);
+    background-size: cover;
+    padding: 350px 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-.right{
-    float: right;
-}
 img{
     max-width: 100%;
 }
 
-a{
-    text-decoration: none;
-}
-
-body,a,span,p,h1,h2,h3,h4,h5{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-                    /* main css start */
-
-.header_bg{
-    background-color: black;
-
-}
-.logo_div{
-    width: 100px;
+.banner h3{
+    color: white;
     padding: 10px;
 }
-.menu_bar{
-}
-.menu_bar ul{
-    padding: 0;
-    margin: 0;
-}
-.menu_bar ul li{
-    display: inline-block;
-    position: relative;
-    /* float: left; */
-}
-.menu_bar ul li a{
+
+.banner p{
+    color: white;
     padding: 10px;
-    line-height: 50px;
-    color: white;
-    display: block;
-}
-.menu_bar ul li a:hover{
-    text-decoration: underline;
-
 }
 
-        /* sub_menu start */
-
-
-.menu_bar ul li ul {
-    position: absolute;
-    background-color: black;
-    top: 70px;
-    left: 0;
-    right: 0;
-    width: 120px;
-    height: auto;
-    opacity: 0;
-    visibility: hidden;
-    transition: .5s;
-    border-top: 2px solid white;
+.team_area{
+    background-color: #BAC1F3;
 }
 
-.menu_bar ul li:hover  ul{
-    opacity: 1;
-    visibility: visible;
-    transition: 0.5s;
+.team_area p{
+    padding: 0 120px;
 }
 
-
-.menu_bar ul li ul li{
-    display: block;
-}
-.menu_bar ul li ul li a{
-    line-height: 30px;
-    padding: 0px 5px;
-    display: block;
-}
-.menu_bar ul li ul li a:hover{
-    background-color: #fff;
-    color: black;
-    transition: .5s;
+.team_area h5{
+    padding-top: 5px;
 }
 
-.banner_area{
-    background-image: url(./imges/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 265px;
-    height: 780px;
+.about_area{
+    background-color: #C2D4EA;
 }
 
-
-.tex_heading{}
-.tex_heading h2{
-    text-transform: uppercase;
-    font-size: 54px;
-    font-weight: 800;
-    margin-bottom: 10px;
-}
-.tex_heading p{
-    font-size: 30px;
-    font-weight: 700;
-}
-.tex_heading a{
-    background-color: black;
-    width: 191px;
+.address{
     display: inline-block;
-    height: 75px;
-    line-height: 75px;
-    text-align: center;
-    color: white;
-    text-transform: capitalize;
-    font-weight: 600;
-    border-radius: 15px;
-    transition: .7s;
+    line-height: 31px;
+    margin-left: 80px;
+    margin-bottom: -43px;
 }
 
-
-.tex_heading a:hover{
-    background-color: white;
-    color: black;
-    transition: .7s;
+.photo_bg{
+    height: 150px;
 }
 
-.tex_heading .contact{
-    background-color: white;
-    color: black;
-    margin-left: 10px;
-}
-
-.tex_heading .contact:hover{
-    background-color: black;
-    color: #fff;
-}
-
-.about_bg{
-    background-color: #87A471;
-    padding-bottom: 20px;
-}
-.about_me{}
-.same_headeing{
-    text-transform: uppercase;
-    font-size: 50px;
-    font-weight: 600;
-    color: #ffffff;
-    padding-top: 15px;
-}
-.photo_text{
-    width: 65%;
-    margin: auto;
-    padding-top: 30px;
-}
-.photo_text p{
+.photo{
     float: left;
-    display: inline-flex;
-    width: 450px;
-    text-align: start;
-    color: #fdf8f2;
-    margin-top: 50px;
-}
-.photo_text .photo{
-    float: right;
-    width: 200px;
 }
 
-
-.mid_area{
-    background-color:#606A64 ;
+.address{
+   
 }
 
-.pera_graph{
-    margin: auto;
-    text-align: center;
-}
-.pera_graph h3{
-
-color: white;
-
-text-transform: capitalize;
-
-font-weight: 700;
-}
-.pera_graph p{
-    color: white;
-    width: 500px;
-    display: inline-block;
+.paragraph{
+    margin: 20px 0;
 }
 
-.box1{
-    width: 25%;
-    background-color: white;
-    padding: 0px  11px;
-    border-radius: 20px;
-    text-align: left;
-    display: inline-block;
-    margin: 36px;
-}
-
-.I_cone{
-    float: left;
-    margin-top: 18px;
-    height: 205px;
-}
-.box1 h5{
-    padding: 15px;
-    display: inline-block;
-    line-height: 40px;
-}
-.box1 p{}
-
-
-
-
-
-.check_bg {
-    background-color: #87A471;
-}
-
-.check_bg h2{
-    font-size: 29px;
-    text-align: center;
-    color: white;
-    text-transform: capitalize;
-
-}
-
-.check_bg p{
-    text-align: center;
-    color: white;
-    text-transform: capitalize;
-}
-
-.motel1{
-    border: 1px solid white;
-    width: 40%;
-    height: autopx;
-    /* float: left; */
-    margin-left: 25px;
-    margin-top: 30px;
-    display: inline-block;
-}
-.motel1 img{
-    width: 100%;
-    height: 100%;
-}
-
-.motel1 p{
-    margin-top: 10px;
-    color: #65807C;
-}
-
-.motel1 span{
-    text-align: center;
-    display: block;
-    color: white;
-    padding-bottom: 20px;
- }
-
- .four_images{
-
- }
-
-  .four_images .galary1{
-    width: 230px;
-    display: inline-block;
-    margin: 23px;
-  }
-
-
-
-  .profoile{
-    width: 350px;
-  }
-
-.social_media{
-    display: inline-block;
-    margin-left: 20px;
-    text-align: center;
-    padding: 15px 0px;
-}
-
-.social_media a{
-    font-size: 30px;
-    color: white;
-    padding-left: 10px;
-    transition: .5s;
-}
-
-
-
-.social_media a:hover{
-    color: yellow;
-    transition: 0.5s;
-}
-
-
-  .my_tems {
-    background-color: #5B9776;
-}
-
-.my_tems h2{
-    color: white;
-    text-align: center;
-}
-
-
-.want_us {
-    margin: auto;
-    background-color: #606A64;
-    text-align: center;
-    color: white;
-    padding: 147px 259px;
-}
-.want_us h2 {
-    padding: 20px;
-    font-size: 32px;
-}
-.want_us p {
-    padding-bottom: 35px;
-    line-height: 26px;
+.about_area span{
     font-size: 20px;
-}
-.want_us a {
-    background-color: #00BC9C;
-    color: white;
-    padding: 15px 50px;
-    border-radius: 5px;
-    text-decoration: none;
-    transition: .5s;
+    font-family: revert;
 }
 
+.contact{
 
-.get_touch:hover{
-    background-color: rgb(8, 17, 44);
-    transition: .5s;
 }
-
-
-
+.contact h2{
+    padding-bottom: 30px;
+}
 
 footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    
+    background-color: #0062D3;
 }
-footer p {
-    font-size: 20px;
-    margin: 0;
+footer p{
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 10px 0px;
 }
 
 
+
+.vedio{
+    color: red;
+    font-size: 30px;
+    float: left;
+}
